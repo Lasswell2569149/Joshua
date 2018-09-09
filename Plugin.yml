@@ -10,5 +10,5 @@ commands:
     usage: /heal
   broadcast:
     description: Bordcast Befehl
-    usage: /broadcast
+    usage: /broadcast <message>
     aliases: ["br"]
