@@ -5,3 +5,5 @@ commands:
   info:
     description:Info Befehl
     usage: /info
+  heal:
+    description: /heal
