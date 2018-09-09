@@ -21,7 +21,14 @@ class Main extends PluginBase
                  $sender->sendMessage(TextFormat: :Red . "Du must ein Spieler sein, um diesen Befehl auszuführen!");
                  return true;
              }
-         case "bordcast":
-             
+         case "broadcast": // broadcast hier eine nachricht
+             if (count($args) >=1){
+                  $nachricht = implode(" ", $args);
+                  $this->getServer()->broadcastMessage($nachricht)
+                  return true;
+             } else{
+                  $sender->sendMessage(TextFormat: :Yellow . "Usage:" . $cmd->getUsage());
+                  return true;
+             }
      }
   }
