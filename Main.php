@@ -19,6 +19,9 @@ class Main extends PluginBase
                  return true;
              } else{
                  $sender->sendMessage(TextFormat: :Red . "Du must ein Spieler sein, um diesen Befehl auszuführen!");
-                 
+                 return true;
+             }
+         case "bordcast":
+             
      }
   }
