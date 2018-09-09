@@ -6,4 +6,9 @@ commands:
     description:Info Befehl
     usage: /info
   heal:
-    description: /heal
+    description: Heal Befehl
+    usage: /heal
+  broadcast:
+    description: Bordcast Befehl
+    usage: /broadcast
+    aliases: ["br"]
