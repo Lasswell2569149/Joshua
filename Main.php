@@ -1,5 +1,5 @@
 <?php
-class Main extends PluginBase
+class Main/Heal extends PluginBase
 {
    public function onEnable()
    {
