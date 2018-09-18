@@ -1,4 +1,9 @@
 <?php
+namespace: Heal;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+use pocketmine\plugin\PluginBase
+
 class Main/Heal extends PluginBase
 {
    public function onEnable()
