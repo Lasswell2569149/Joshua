@@ -1,5 +1,5 @@
-name:Heal
-main:extends PluginBase 
+name: Heal
+main: extends PluginBase 
 api: 4.0.0
 commands:
   info:
