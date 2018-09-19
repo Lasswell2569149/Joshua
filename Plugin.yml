@@ -1,6 +1,6 @@
-name:
-main: 
-api: 1.0.0
+name:Heal
+main:extends PluginBase 
+api: 4.0.0
 commands:
   info:
     description:Info Befehl
